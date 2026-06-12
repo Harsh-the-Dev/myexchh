@@ -33,8 +33,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
     
-    <!-- Core CSS -->
-    <link rel="stylesheet" href="style.css">
+    <!-- Core CSS with cache-busting query -->
+    <link rel="stylesheet" href="style.css?v=4.3">
 
     <!-- Structured Data (JSON-LD) for SEO -->
     <script type="application/ld+json">
@@ -50,29 +50,27 @@
 </head>
 <body>
 
-    <!-- Header Navigation -->
+    <!-- Header Navigation (Responsive at 1024px Collapse) -->
     <header class="header">
         <div class="header-container">
             <a href="exchange.html" class="logo-link">
                 <img src="assets/my99exch.black.png" alt="MyExch Logo" class="nav-logo" id="main-logo">
-                <span class="logo-text">My<span>Exch</span></span>
             </a>
             
             <nav class="nav-menu" id="navMenu">
                 <ul>
-                    <li><a href="#sports-exchange">Sports Exchange</a></li>
-                    <li><a href="#how-it-works">How It Works</a></li>
-                    <li><a href="#live-odds">Live Match Odds</a></li>
-                    <li><a href="#casino">Live Casino</a></li>
-                    <li><a href="#faqs">FAQs</a></li>
+                    <li><a href="exchange.html" class="active">Exchange</a></li>
+                    <li><a href="exchange.html#live-odds">Match Odds</a></li>
+                    <li><a href="casino.html">Live Casino</a></li>
+                    <li><a href="faq.html">FAQs & Help</a></li>
                 </ul>
             </nav>
             
             <div class="header-ctas">
-                <a href="/" class="btn btn-secondary">MyExch Login</a>
-                <a href="https://wa.me/917970352439?text=Hello%20MyExch%2C%20I%20want%20to%20create%20a%20new%20betting%20ID." target="_blank" class="btn btn-primary whatsapp-btn-track">
+                <a href="/" class="header-login-link">Login</a>
+                <a href="https://wa.me/917970352439?text=Hello%20MyExch%2C%20I%20want%20to%20create%20a%20new%20betting%20ID%20instantly." target="_blank" class="btn btn-primary whatsapp-btn-track">
                     <svg viewBox="0 0 24 24" class="icon-whatsapp-svg"><path fill="currentColor" d="M12.003 21.003a8.97 8.97 0 0 1-4.59-1.252l-.33-.196-3.41.895.91-3.324-.216-.344a8.96 8.96 0 0 1-1.37-4.782c0-4.96 4.04-9 9-9 4.96 0 9 4.04 9 9 0 4.96-4.04 9-9 9m0-19c-5.52 0-10 4.48-10 10 0 2.01.6 3.88 1.62 5.46L2 22l4.72-1.24A9.97 9.97 0 0 0 12.003 22c5.52 0 10-4.48 10-10s-4.48-10-10-10m4.66 12.44c-.25-.13-1.5-.74-1.74-.82-.23-.09-.4-.13-.57.13-.17.25-.66.82-.8 1-.15.17-.29.2-.54.08-.25-.13-1.06-.39-2.03-1.25-.75-.67-1.26-1.5-1.4-1.75-.15-.25-.02-.39.11-.51.11-.11.25-.29.37-.43.12-.15.17-.25.25-.42.09-.17.04-.33-.02-.46-.07-.13-.57-1.39-.79-1.9-.21-.52-.42-.45-.57-.45-.15 0-.32-.02-.49-.02-.17 0-.45.06-.69.32-.24.25-.92.9-1.01 1.74s.62 1.66.71 1.78c.09.12 1.22 1.87 2.96 2.62.42.18.74.29.99.37.42.13.8.11 1.1.07.34-.05 1.05-.43 1.2-.85.15-.42.15-.79.1-.85-.05-.06-.17-.1-.42-.23"/></svg>
-                    <span>Get New ID</span>
+                    <span>Get Betting ID</span>
                 </a>
             </div>
             
@@ -83,6 +81,7 @@
             </button>
         </div>
     </header>
+
 
     <!-- Main Content Section -->
     <main>
@@ -419,7 +418,6 @@
             <div class="footer-brand">
                 <a href="exchange.html" class="logo-link">
                     <img src="assets/my99exch.black.png" alt="MyExch Logo in Footer" class="nav-logo">
-                    <span class="logo-text">My<span>Exch</span></span>
                 </a>
                 <p class="brand-info">MyExch is India's leading sports betting and live gaming exchange platform. Offering competitive odds, secure payment processes, and 24/7 instant chat-based withdrawal and registration support.</p>
             </div>
@@ -428,10 +426,10 @@
                 <div class="footer-col">
                     <h3>Explore Markets</h3>
                     <ul>
-                        <li><a href="#live-odds">Cricket Betting Exchange</a></li>
-                        <li><a href="#live-odds">Football Sports Book</a></li>
-                        <li><a href="#live-odds">Tennis Betting Markets</a></li>
-                        <li><a href="#casino">Online Casino Games</a></li>
+                        <li><a href="exchange.html#live-odds">Cricket Betting Exchange</a></li>
+                        <li><a href="exchange.html#live-odds">Football Sports Book</a></li>
+                        <li><a href="exchange.html#live-odds">Tennis Betting Markets</a></li>
+                        <li><a href="casino.html">Online Casino Games</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
